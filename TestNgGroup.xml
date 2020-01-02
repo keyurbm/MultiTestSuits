@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="6" verbose="1" name="Group Test Suite"
+	annotations="JDK" parallel="tests">
+	<test name="Group Test">
+		<groups>
+			<run>
+				<include name="check-mail" />
+			</run>
+		</groups>
+
+		<classes>
+			<class name="TestCaseGroup" />
+		</classes>
+	</test>
+</suite>

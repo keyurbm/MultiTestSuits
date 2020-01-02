@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="6" verbose="1" name="Login Test Suite" annotations="JDK" parallel="tests">
+         
+  <test name="YahooMail">
+	 <classes>
+	   <class name="com.suite1.YahooMail"/>
+	   <class name="com.suite1.AddTestCase"/>
+	 </classes>
+   </test>
+   
+  <test name="GoogleMail">
+     <classes>
+       <class name="com.suite2.GoogleMail"/>
+       <class name="com.suite2.AddUserTestCase"/>
+     </classes>
+   </test>
+</suite>
