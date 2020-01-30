@@ -17,5 +17,5 @@ public class GetTagName {
         System.out.println(tagName);
         //driver.quit();
         System.exit(0);
-}
+    }
 }
