@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="37364" started-at="2020-01-29T08:57:17Z" finished-at="2020-01-29T08:57:54Z">
+  <suite name="Default suite" duration-ms="26167" started-at="2020-02-03T14:27:21Z" finished-at="2020-02-03T14:27:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="37364" started-at="2020-01-29T08:57:17Z" finished-at="2020-01-29T08:57:54Z">
-      <class name="MultipleWindowsClass">
-        <test-method status="PASS" signature="testMultipleWindows()[pri:0, instance:MultipleWindowsClass@5f375618]" name="testMultipleWindows" duration-ms="37296" started-at="2020-01-29T14:27:17Z" finished-at="2020-01-29T14:27:54Z">
+    <test name="Default test" duration-ms="26167" started-at="2020-02-03T14:27:21Z" finished-at="2020-02-03T14:27:47Z">
+      <class name="AlertPopup.WindowExamples">
+        <test-method status="PASS" signature="test_CloseAllWindowsExceptMainWindow()[pri:0, instance:AlertPopup.WindowExamples@5f375618]" name="test_CloseAllWindowsExceptMainWindow" duration-ms="26097" started-at="2020-02-03T19:57:21Z" finished-at="2020-02-03T19:57:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMultipleWindows -->
-      </class> <!-- MultipleWindowsClass -->
+        </test-method> <!-- test_CloseAllWindowsExceptMainWindow -->
+      </class> <!-- AlertPopup.WindowExamples -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
