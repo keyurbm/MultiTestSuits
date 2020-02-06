@@ -2,6 +2,6 @@ package Inheritance;
 
 public class Dog extends Animal {
 	void bark() {
-		System.out.println("Bark method from Dog class");
+		System.out.println("Bark method from Dog class - Child Class");
 	}
 }
