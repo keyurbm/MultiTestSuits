@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="MultipleWindowsClass">
+      <class name="MouseEvent.MouseHoverUsingOffset">
         <methods>
-          <include name="testMultipleWindows"/>
+          <include name="beforetest"/>
+          <include name="test"/>
+          <include name="aftertest"/>
         </methods>
-      </class> <!-- MultipleWindowsClass -->
+      </class> <!-- MouseEvent.MouseHoverUsingOffset -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
