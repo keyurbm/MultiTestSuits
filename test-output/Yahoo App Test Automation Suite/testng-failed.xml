@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Yahoo App Test Automation Suite]">
+  <test name="Yahoo App Test(failed)">
+    <parameter name="emilId" value="test@yahoo.com"/>
+    <classes>
+      <class name="TestNG.ParametrizedTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="YahooLoginTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestNG.ParametrizedTest -->
+    </classes>
+  </test> <!-- Yahoo App Test(failed) -->
+</suite> <!-- Failed suite [Yahoo App Test Automation Suite] -->

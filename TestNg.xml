@@ -15,4 +15,5 @@
        <class name="com.suite2.AddUserTestCase"/>
      </classes>
    </test>
+
 </suite>

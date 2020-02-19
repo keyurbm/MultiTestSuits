@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="MouseEvent.MouseHoverUsingOffset">
+      <class name="assertionexp.AssertionExample">
         <methods>
-          <include name="beforetest"/>
-          <include name="test"/>
-          <include name="aftertest"/>
+          <include name="asseration"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- MouseEvent.MouseHoverUsingOffset -->
+      </class> <!-- assertionexp.AssertionExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

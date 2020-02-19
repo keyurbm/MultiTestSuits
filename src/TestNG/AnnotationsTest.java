@@ -5,6 +5,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 import org.testng.annotations.AfterMethod;
 
@@ -40,9 +41,13 @@ public class AnnotationsTest {
 		System.out.println("From AfterTest annotation in AnnotationsTest class ....");
 	}
 
+	@BeforeSuite
+	public void beforeSuite() {
+		System.out.println("From BeforeSuite annotation in AnnotationsTest class ....");
+	}
+	
 	@AfterSuite
 	public void afterSuite() {
 		System.out.println("From AfterSuite annotation in AnnotationsTest class ....");
 	}
-
 }

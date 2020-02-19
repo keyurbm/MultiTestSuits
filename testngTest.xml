@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Yahoo App Test Automation Suite" verbose="1">
+    <test name="Yahoo App Test" preserve-order="true">
+		
+		<parameter name="emailId" value="test@yahoo.com" />
+		   		     
+        <classes>
+            <class name="TestNG.ParametrizedTest"/>
+        </classes>
+    
+    </test>
+</suite>
