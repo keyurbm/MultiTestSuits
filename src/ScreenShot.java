@@ -32,7 +32,7 @@ public class ScreenShot {
 	public void aftertest() {
 		driver.quit();
 	}
-
+	
 	@Test
 	public void test () throws IOException {  
 		//Capture entire page screenshot and then store it to destination drive
